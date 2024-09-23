@@ -250,3 +250,21 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+  .product-button.added {
+    background-color: brown;
+    cursor: not-allowed;
+  }
+  .tag{
+  margin-right: 10%;
+}
+
+.cart-container {
+    position: relative;
+    display: inline-block;
+  }
+  .item-count {
+    position: absolute;
+    color: red;
+    font-weight: bold;  
+  }
